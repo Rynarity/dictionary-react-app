@@ -1,0 +1,21 @@
+.result {
+  font-size: 25px;
+  font-weight: 500;
+  transition: 0.5s;
+  width: fit-content;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+}
+
+.result:hover {
+  color: rgb(0, 98, 255);
+  font-size: 30px;
+  cursor:pointer;
+}
+
+.result:active {
+  color: red;
+  font-size: 50px;
+}
